@@ -1,0 +1,133 @@
+<ul class="nav nav-pills">
+  <li role="presentation" class="active">
+    <a href="#">
+      Home
+    </a>
+  </li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      About Us <span class="caret"></span>
+      <ul class="dropdown-menu">
+        <li><a href="#">History</a></li>
+        <li><a href="#">Culture</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Workshop</a></li>
+      </ul>
+    </a>
+  </li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Products <span class="caret"></span>
+      <ul class="dropdown-menu">
+        <li><a href="#">Machines Overview</a></li>
+        <li><a href="#">Injection Molding Machine</a></li>
+        <li><a href="#">Beverage &amp; Liquor</a></li>
+        <li><a href="#">Plastic Equipment</a></li>
+        <li><a href="#">Medicine &amp; Industry</a></li>
+        <li><a href="#">Cosmetic</a></li>
+        <li><a href="#">Extruder Machine</a></li>
+      </ul>
+    </a>
+  </li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Video <span class="caret"></span>
+      <ul class="dropdown-menu">
+        <li><a href="#">Beverage &amp; Liquor</a></li>
+        <li><a href="#">Plastic Equipment</a></li>
+        <li><a href="#">Medicine &amp; Industry</a></li>
+        <li><a href="#">Cosmetic</a></li>
+      </ul>
+    </a>
+  </li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Your Products <span class="caret"></span>
+      <ul class="dropdown-menu">
+        <li><a href="#">Packaging Solution</a></li>
+        <li><a href="#">Injection Molding Machine</a></li>
+        <li><a href="#">Beverage &amp; Liquor</a></li>
+        <li><a href="#">Plastic Equipment</a></li>
+        <li><a href="#">Medicine &amp; Industry</a></li>
+        <li><a href="#">Cosmetic</a></li>
+      </ul>
+    </a>
+  </li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      News <span class="caret"></span>
+      <ul class="dropdown-menu">
+        <li><a href="#">News</a></li>
+        <li><a href="#">Trade Fairs</a></li>
+      </ul>
+    </a>
+  </li>
+  <li role="presentation" class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      Contact Us <span class="caret"></span>
+      <ul class="dropdown-menu">
+        <li><a href="#">Headquarters</a></li>
+        <li><a href="#">Hangzhou Office</a></li>
+        <li><a href="#">After-sale Service</a></li>
+      </ul>
+    </a>
+  </li>
+</ul>
+<div id="topCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#topCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#topCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <%= image_tag "20150402142653957.jpg", with: 460, height: 345 %>
+      </div>
+      <div class="item">
+        <%= image_tag "20150402142424681.jpg", with: 460, height: 345 %>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#topCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#topCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+<div class="main-container">
+  <div class="row">
+    <div class="col-6 col-md-4 box" id="box1">
+      <div class="overlay" id="overlay1">
+        <ul class="nav nav-pills nav-stacked">
+          <li role="presentation"><a href="#">Injection Moldi</a></li>
+          <li role="presentation"><a href="#">Beverage &amp; Liqu</a></li>
+          <li role="presentation"><a href="#">Plastic Equipme</a></li>
+          <li role="presentation"><a href="#">Medicine &amp; Indu</a></li>
+          <li role="presentation"><a href="#">Cosmetic</a></li>
+          <li role="presentation"><a href="#">Extruder Machin</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-6 col-md-8 box" id="box2">
+      <div class="overlay" id="overlay2">
+        <div class="row">
+          <div class="col-6 col-md-4"><%= image_tag "20150909113803890.jpg" %></div>
+          <div class="col-6 col-md-8">
+            <h3><a href="#">Vapor Expo International</a></h3>
+            <p>
+              Vapor Expo International is a trade show for professionals in the business of buying and selling e-cigs, vaping products, accessories, mods, atomizers and related merchandise. Visitors and Exhibitors attend from all over the world to this Annual International Event.
+              The trade show features products that can be viewed and sampled…</p>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>

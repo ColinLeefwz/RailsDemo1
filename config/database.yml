@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  database: igo_development
+  username: leelolo12
+  password: 130130aa
+  encoding: UTF8
+
+test:
+  adapter: postgresql
+  database: igo_test
+  username: leelolo12
+  password: 130130aa
+  encoding: UTF8
+
+production:
+  adapter: postgresql
+  database: igo_production
+  username: leelolo12
+  password: 130130aa
+  encoding: UTF8
+
